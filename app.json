@@ -1,7 +1,7 @@
 {
   "name": "microlink-proxy",
   "description": "Interact with Microlink API without exposing your creedentials.",
-  "repository": "https://github.com/microlinkhq/proxy",
+  "repository": "https://github.com/aredotna/proxy",
   "logo": "https://cdn.microlink.io/logo/trim.jpeg",
   "keywords": [
     "microlink",
@@ -9,8 +9,8 @@
     "credentials"
   ],
   "env": {
-    "DOMAINS": {
-      "description": "The list of allowed domains authorized for consuming your Microlink API credentials."
+    "HEADER_KEY": {
+      "description": "Generated key to pass along"
     },
     "API_KEY": {
       "description": "Your Microlink API key used to authenticate your requests."
